@@ -25,9 +25,9 @@ Initalizing the project.
 
 Options:
 
-- name : `[string]` *optional* - otherwise the directory name will be used as the name
-- profile: `[string]` *optional* - can be configured later
 - region: `[string]` **default: us-east-1** - AWS region
+- name : `[string]` - otherwise the directory name will be used as the name
+- profile: `[string]` - can be configured later
 
 ### Adding Profile
 
@@ -56,6 +56,10 @@ command: `lambda functions add <name>`
 Positionals:
 
 - `<name>`: `[string]` the name of the lambda function
+
+Options:
+
+- runtime: [`string`] **default: TypeScript** - other runtimes are not supported at the moment... If you want, feel free to support the project.
 
 #### Remove a Function
 
