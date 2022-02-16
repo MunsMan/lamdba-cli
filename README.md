@@ -17,11 +17,21 @@ Still in Version 0.8, so only build drom source is supported.
 
 ## How to use it
 
-### `lambda init`
+### Initalization
 
 Initalizing the project.
 
 Options:
-- name : *optinal* otherwise the directory name will be used as the name
-- profile: *optional* can be configured later
-- region: **default: us-east-1** AWS region
+- name : *optional* - otherwise the directory name will be used as the name
+- profile: *optional* - can be configured later
+- region: **default: us-east-1** - AWS region
+
+### Adding Profile 
+
+command: `lambda profile <profile>`
+
+Takes a specifyied profile from the `~/.aws` file and connects it with your project.
+
+- `<profile>`: `string` of the profile. 
+
+
