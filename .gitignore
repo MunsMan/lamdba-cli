@@ -1,0 +1,4 @@
+junk/
+build/
+node_modules/
+.clang-format
