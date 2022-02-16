@@ -1,10 +1,11 @@
 {
   "name": "cli",
-  "version": "1.0.0",
+  "version": "0.8",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node build/cli.js"
   },
   "devDependencies": {
     "@aws-sdk/client-cloudwatch-logs": "^3.48.0",
