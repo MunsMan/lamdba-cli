@@ -21,6 +21,8 @@ Still in Version 0.8, so only build drom source is supported.
 
 Initalizing the project.
 
+**command:** `lambda init`
+
 Options:
 - name : *optional* - otherwise the directory name will be used as the name
 - profile: *optional* - can be configured later
@@ -28,10 +30,11 @@ Options:
 
 ### Adding Profile 
 
-command: `lambda profile <profile>`
-
 Takes a specifyied profile from the `~/.aws` file and connects it with your project.
 
+command: `lambda profile <profile>`
+
+Positionals:
 - `<profile>`: `string` of the profile. 
 
 
